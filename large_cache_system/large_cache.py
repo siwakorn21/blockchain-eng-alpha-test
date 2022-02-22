@@ -55,12 +55,3 @@ class LargeValueCache:
 
                     self.data[key] = value
             print(self.data)
-            
-        
-cache = LargeValueCache(5)
-
-cache.insert(1, 2)
-cache.insert(2, 3)
-cache.insert(3, 4)
-cache.insert(4, 5)
-cache.insert(5, 6)
